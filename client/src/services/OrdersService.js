@@ -14,6 +14,6 @@ export default {
         return Api().get('management/orders/'+params.id)
     },
     deleteOrder(id){
-        return Api().delete('management/orders'+id)
+        return Api().delete('management/orders/'+id)
     }
 }
